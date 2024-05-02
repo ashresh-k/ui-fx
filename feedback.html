@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>webpage</title>
+        <meta name="viewport" content="width=devive-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">&#9776;</label>
+            <label class="logo">UI Fx</label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="video.html">channel</a></li>
+                <li><a href="contact.html">Contact </a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+           <div class="contact-container">
+               <form action="https://api.web3forms.com/submit" method="post"  class="contact-left">
+                  <div class="contact-left-title">
+                      <h2>Give your feedback</h2>
+                      <hr>
+                  </div>
+                  <input type="hidden" name="access_key" value="9ccaa136-247f-494a-93a5-7f361ae65610">
+                  <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                  <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                  <textarea name="feedback" placeholder="Enter your opinions here" class="contact-inputs" required ></textarea>
+                  <button type="submit">send</button>
+               </form>
+               <div class="contact-right">
+            </div>
+           </div>
+    </body>
+    </html>
